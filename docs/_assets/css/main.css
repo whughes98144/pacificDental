@@ -1,0 +1,391 @@
+/*
+    Variables: Colors, Dimensions, Fonts
+---------------------------------------*/
+/*
+    Common
+---------------------------------------*/
+body {
+  background-color: #ffffff;
+  color: #606051;
+  font-family: "Open Sans", Arial, sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: "Lato", Arial, sans-serif; }
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 3.6rem; }
+
+h2 {
+  text-transform: uppercase;
+  color: #BFBA3D; }
+
+h4 {
+  text-transform: uppercase;
+  color: #BFBA3D; }
+
+.lead {
+  line-height: 1.7; }
+
+.bg-dark {
+  background-color: #0D0D0B !important; }
+
+.bg-light {
+  background-color: #F0ECDF !important; }
+
+.bg-light-two {
+  background-color: #e0e7e7 !important; }
+
+a {
+  color: #BFBA3D; }
+  a:hover {
+    color: #5A581D; }
+
+blockquote {
+  position: relative; }
+  blockquote .quote-mark {
+    color: #BFBA3D;
+    font-size: 8rem;
+    line-height: 8rem;
+    position: absolute;
+    top: -40px;
+    left: -50px; }
+  blockquote p {
+    font-size: 1.25rem; }
+
+.btn {
+  border-radius: 0;
+  border-style: none;
+  font-weight: 700; }
+
+.btn-primary {
+  background-color: #BFBA3D; }
+  .btn-primary:hover {
+    background-color: #5A581D; }
+
+.btn-secondary {
+  background-color: #577171; }
+  .btn-secondary:hover {
+    background-color: #405555; }
+
+.btn-xs {
+  padding: .15rem .25rem;
+  font-size: .8rem;
+  line-height: 1rem;
+  border-radius: 0;
+  text-transform: uppercase; }
+
+.intro {
+  padding: 60px 0;
+  text-align: center; }
+
+main {
+  padding: 20px 0;
+  margin: 0; }
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+
+.col-content-container {
+  max-width: 570px;
+  padding: 60px;
+  margin: 40px 0; }
+  @media (max-width: 576px) {
+    .col-content-container {
+      padding: 20px; } }
+
+.col-spacer-block {
+  height: 300px; }
+
+.col-bg-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.feature {
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px; }
+  .feature a.feature-lnk {
+    display: block;
+    padding: 0;
+    margin: 0;
+    color: #44443a;
+    text-decoration: none; }
+    .feature a.feature-lnk .feature-header {
+      background-color: #0D0D0B; }
+    .feature a.feature-lnk:hover .feature-header img {
+      opacity: 0.8; }
+    .feature a.feature-lnk:hover .btn-primary {
+      background-color: #0D0D0B; }
+  .feature .feature-content {
+    padding: 10px; }
+
+/*
+    Main Navigation & Header
+---------------------------------------*/
+#navMain {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2); }
+  #navMain .container {
+    position: relative; }
+  #navMain .navbar-brand img {
+    width: 128px; }
+
+#navbarMain .nav-item .nav-link {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #44443a;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; }
+  #navbarMain .nav-item .nav-link:hover {
+    background-color: #BFBA3D;
+    color: #ffffff; }
+
+#navMainAppt {
+  position: absolute;
+  top: -0.5rem;
+  right: 15px;
+  width: 120px;
+  display: none; }
+  #navMainAppt a {
+    display: block;
+    background-color: #BFBA3D;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 0; }
+    #navMainAppt a:hover {
+      background-color: #5A581D; }
+
+/*
+    Footer
+---------------------------------------*/
+#Ft {
+  padding: 40px 0;
+  color: #ffffff; }
+  #Ft a {
+    color: #89A5A5;
+    text-decoration: none; }
+    #Ft a:hover {
+      color: #BFBA3D; }
+
+#FtLogo {
+  width: 128px;
+  margin-bottom: 20px; }
+
+/*
+    Hero
+---------------------------------------*/
+.hero {
+  color: #ffffff;
+  background-color: #0D0D0B;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  padding: 380px 0 40px 0;
+  text-align: center; }
+  .hero p.lead {
+    font-size: 1.8rem;
+    line-height: 1.8rem; }
+  .hero .hero-content {
+    text-align: center; }
+  @media (max-width: 576px) {
+    .hero {
+      min-height: 300px;
+      padding: 150px 0 20px 0; } }
+
+.hero-short {
+  min-height: 450px;
+  padding: 140px 0 20px 0; }
+  @media (max-width: 576px) {
+    .hero-short {
+      min-height: 175px;
+      padding-top: 90px; } }
+
+#HmHero {
+  background-image: url(../images/hero-hm.jpg); }
+
+#AbHero {
+  background-image: url(../images/hero-ab.jpg); }
+
+#CtHero {
+  background-image: url(../images/hero-ct.jpg); }
+
+#GpHero {
+  background-image: url(../images/hero-gp.jpg); }
+
+#LcHero {
+  background-image: url(../images/hero-location.jpg); }
+
+/*
+    Home
+---------------------------------------*/
+#HmSecFeatures {
+  padding: 40px 0 20px 0;
+  background-color: #F0ECDF; }
+
+#HmSecTestimonials {
+  padding: 40px 0; }
+
+/*
+    About
+---------------------------------------*/
+#AbSecValue {
+  padding: 0;
+  background-color: #89A5A5; }
+  #AbSecValue h2 {
+    color: #F0ECDF; }
+  #AbSecValue p {
+    color: #0D0D0B; }
+  #AbSecValue .col-bg-img {
+    background-image: url(../images/feat-value.jpg); }
+
+#AbSecTestimonial {
+  padding: 40px 0; }
+
+#AbSecServices {
+  background-color: #F0ECDF; }
+  #AbSecServices .col-bg-img {
+    background-image: url(../images/feat-services.jpg); }
+
+#AbSecActions {
+  background-color: #d1dcdc;
+  padding: 40px 0; }
+
+/*
+    Locations
+---------------------------------------*/
+#MapContainer {
+  height: 640px;
+  position: relative; }
+
+#MapCanvas {
+  width: 100%;
+  height: 100%; }
+
+.location {
+  position: relative;
+  padding-right: 50px; }
+
+.location-marker {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  padding: 8px;
+  color: #ffffff;
+  background-color: #a6bbbb;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700; }
+
+#accordionLocations {
+  margin-top: 1px; }
+  #accordionLocations .card {
+    border-style: none;
+    border-radius: 0; }
+    #accordionLocations .card .card-header {
+      background-color: #405555;
+      border-radius: 0;
+      border-bottom: solid 1px #cccccc; }
+      #accordionLocations .card .card-header:hover {
+        background-color: #354646; }
+      #accordionLocations .card .card-header a {
+        display: block;
+        color: #ffffff;
+        text-decoration: none; }
+        #accordionLocations .card .card-header a h4 {
+          font-weight: 700;
+          margin: 0;
+          color: #ffffff;
+          text-transform: none; }
+          #accordionLocations .card .card-header a h4 a {
+            color: #ffffff; }
+    #accordionLocations .card .card-body {
+      background-color: #c3d1d1;
+      max-height: 430px;
+      overflow-y: auto; }
+    #accordionLocations .card div.card-body::-webkit-scrollbar {
+      background-color: #b4c6c6;
+      width: 12px; }
+    #accordionLocations .card div.card-body::-webkit-scrollbar-thumb {
+      background-color: #577171;
+      border-radius: 6px; }
+
+/*
+    Practice Details
+---------------------------------------*/
+#DtPracticeDetails h4 {
+  border-bottom: solid 1px #c3d1d1;
+  margin-top: 20px; }
+
+#DtPracticeOverview {
+  padding: 20px;
+  background-color: #89A5A5;
+  color: #44443a; }
+  #DtPracticeOverview h2 {
+    color: #F0ECDF; }
+
+#crlGallery {
+  margin-bottom: 20px; }
+
+#accExtras .card {
+  border-radius: 0;
+  border-style: none; }
+  #accExtras .card .card-header {
+    background-color: #354646;
+    border-radius: 0;
+    text-align: center;
+    border-bottom-color: #455a5a; }
+    #accExtras .card .card-header:hover {
+      background-color: #2a3838; }
+    #accExtras .card .card-header a {
+      display: block;
+      color: #ffffff;
+      text-decoration: none; }
+      #accExtras .card .card-header a .oi {
+        font-size: 1.5rem; }
+      #accExtras .card .card-header a h4 {
+        font-weight: 700;
+        margin: 0;
+        color: #ffffff;
+        text-transform: none; }
+        #accExtras .card .card-header a h4 a {
+          color: #ffffff; }
+  #accExtras .card .card-body {
+    background-color: #455a5a;
+    color: #ffffff; }
+
+#GpSecOverview {
+  background-color: #F0ECDF; }
+  #GpSecOverview .col-bg-img {
+    background-image: url(../images/feat-groups.jpg); }
+
+.coupon {
+  background-color: #4c6363;
+  padding: 10px;
+  margin-bottom: 20px;
+  /*border: solid 1px darken($clrOneLt, 15%);*/ }
+  .coupon .coupon-pricing {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #d1dcdc;
+    border-top: solid 1px #628080;
+    border-bottom: solid 1px #628080;
+    margin-bottom: 8px; }
+  .coupon .coupon-expiration {
+    font-size: .8rem;
+    color: #BFBA3D; }
+  .coupon small {
+    color: #b4c6c6; }
