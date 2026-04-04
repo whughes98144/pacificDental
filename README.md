@@ -2,6 +2,11 @@
 
 Recovered static copy of [pacificdentalalliance.com](https://www.pacificdentalalliance.com/) for deployment from the `docs/` folder.
 
+## Design
+
+- **[REDESIGN_V2.md](REDESIGN_V2.md)** — current visual direction (typography, palette, components). Styles live in `docs/_assets/css/main.css`.
+- **[CSS_POLISH_SUGGESTIONS.md](CSS_POLISH_SUGGESTIONS.md)** — earlier incremental polish notes (mostly superseded by v2, still useful for token ideas).
+
 ## Documentation
 
 - **[SITE_RECOVERY.md](SITE_RECOVERY.md)** — ownership note, what was recovered, limitations (forms, maps, photoviewer), and how to re-run the crawler.
